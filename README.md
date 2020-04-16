@@ -5,7 +5,7 @@
 
 ## Steps
 
-1. Retrieve spieces (names to look)
+1. Retrieve spieces (names to look) - 139 spieces
 2. Retrieve urls
 3. Retrieve images
 4. Create dataset
