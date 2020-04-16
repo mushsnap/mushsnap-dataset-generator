@@ -5,11 +5,11 @@
 
 ## Steps
 
-1. Retrieve spieces (names to look) - 139 spieces
-2. Retrieve urls
-3. Retrieve images
-4. Create dataset
-5. Create Mini-batches
+1. [x] Retrieve spieces (names to look) - 139 spieces
+2. [x] Retrieve urls
+3. [x] Retrieve images
+4. [x] Create dataset
+5. [ ] Create Mini-batches
 
 ## Libraries
 
