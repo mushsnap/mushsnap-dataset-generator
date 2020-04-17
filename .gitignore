@@ -139,3 +139,7 @@ data/spieces/*
 !data/spieces/.gitkeep
 
 src/spieces/data
+
+
+data/exports/*
+!data/exports/.gitkeep
