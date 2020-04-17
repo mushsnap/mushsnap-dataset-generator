@@ -7,7 +7,7 @@ default:
 all: compress upload
 
 compress:
-	tar -zcf data/exports/mushsnap_dataset_$(ts).tar.gz data/data
+	tar -zcf data/exports/mushsnap_dataset_$(ts).tar.gz dataset
 
 timestamp:
 	@echo Timestamp is $(ts)

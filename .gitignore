@@ -125,12 +125,12 @@ images/images
 images/url
 spieces/data
 
-data/data/edible/*
-!data/data/edible/.gitkeep
-data/data/inedible/*
-!data/data/inedible/.gitkeep
-data/data/poisonous/*
-!data/data/poisonous/.gitkeep
+dataset/edible/*
+!dataset/edible/.gitkeep
+dataset/inedible/*
+!dataset/inedible/.gitkeep
+dataset/poisonous/*
+!dataset/poisonous/.gitkeep
 
 extra
 data/url_csv/*

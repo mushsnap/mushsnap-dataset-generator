@@ -9,7 +9,7 @@ DATASET = 'all_spieces_alphabetically'
 CSV_URL_PATH = os.getcwd() + '/../data/url_csv/'
 IMAGES_PATH = os.getcwd() + '/../data/spieces/'
 SPIECES_PATH = os.getcwd() + '/spieces/data'
-DATASET_PATH = os.getcwd() + '/../data/data/'
+DATASET_PATH = os.getcwd() + '/../dataset/'
 
 # Image Flickr Size
 # Depending on the size of the network
