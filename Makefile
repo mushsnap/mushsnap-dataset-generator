@@ -8,6 +8,7 @@ all: compress upload
 
 compress:
 	tar -zcf data/exports/mushsnap_dataset_$(ts).tar.gz dataset
+	echo mushsnap_dataset_$(ts)
 
 timestamp:
 	@echo Timestamp is $(ts)
