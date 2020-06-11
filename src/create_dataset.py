@@ -28,5 +28,5 @@ def move_folder_images(mushroom_spiece: str, folder: str):
 
 
 list(map(lambda e: move_folder_images(e, 'edible'), edible))
-list(map(lambda e: move_folder_images(e, 'inedible'), inedible))
+list(map(lambda e: move_folder_images(e, 'poisonous'), inedible))
 list(map(lambda e: move_folder_images(e, 'poisonous'), poisonous))
