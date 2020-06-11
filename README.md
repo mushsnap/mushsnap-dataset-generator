@@ -48,12 +48,8 @@ To execute all the tasks to retrieve all aspects i have use scrapper libreries s
 
 ### References
 
-- Flickr (Images) - FLickrAPI
-- Spieces (Names) - 
-- Selenium (Library - Chrome automatitaion)
-
-## FLICKR-API
-
+- [Selenium](https://www.selenium.dev/)
+- [Chrome Driver](https://chromedriver.chromium.org/)
 - [Flickr api](https://www.flickr.com/services/api/misc.urls.html)
 - [Spieces](http://www.mushroom.world/mushrooms)
 - [Search Method](https://www.flickr.com/services/api/flickr.photos.search.html)
