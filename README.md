@@ -48,7 +48,6 @@ To execute all the tasks to retrieve all aspects i have use scrapper libreries s
 - [Chrome Driver](https://chromedriver.chromium.org/)
 - [Flickr api](https://www.flickr.com/services/api/misc.urls.html)
 - [Spieces](http://www.mushroom.world/mushrooms)
-- [Search Method](https://www.flickr.com/services/api/flickr.photos.search.html)
 
 ## Author
 
