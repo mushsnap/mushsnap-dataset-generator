@@ -28,26 +28,27 @@ def fetch_url(url):
         return url, e
 
 
-t = time()
-for csv in tqdm(os.listdir(CSV_URL_PATH)):
-    if csv is None or csv[0] == '.':
-        continue
+if __name__ == "__main__":
+    t = time()
+    for csv in tqdm(os.listdir(CSV_URL_PATH)):
+        if csv is None or csv[0] == '.':
+            continue
 
-    urls = pd.read_csv(f"{CSV_URL_PATH}/{csv}",
-                       index_col=0)["0"].values.tolist()
+        urls = pd.read_csv(f"{CSV_URL_PATH}/{csv}",
+                           index_col=0)["0"].values.tolist()
 
-    name = csv.split(".")[0]
+        name = csv.split(".")[0]
 
-    if not os.path.exists(IMAGES_PATH + os.sep + name):
-        os.mkdir(IMAGES_PATH + os.sep + name)
+        if not os.path.exists(IMAGES_PATH + os.sep + name):
+            os.mkdir(IMAGES_PATH + os.sep + name)
 
-    urls = [(url, name) for url in urls]
+        urls = [(url, name) for url in urls]
 
-    results = ThreadPoolExecutor().map(fetch_url, urls)
+        results = ThreadPoolExecutor().map(fetch_url, urls)
 
-    for i, (url, resp) in enumerate(results):
-        pass
+        for i, (url, resp) in enumerate(results):
+            pass
 
-    print(f"Done: {csv}")
+        print(f"Done: {csv}")
 
-print(time() - t)
+    print(time() - t)
