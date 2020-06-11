@@ -13,6 +13,9 @@
 
 > This repository provides python script to scrap information from websites. First we have use selenium with chrome to gather data in the raw format. And after that we have used a specific library to gather images from FLICKR. All this data has been gathered to apply Deep learning on it and be able to create an AI capable of differentiate inedible and edible mushrooms.
 
+### 🏠 [MushSnap](https://mailchi.mp/652773124a95/mushsnap)
+
+MushSnap is an App that uses Deep learning to recognize edible and poisonous mushrooms.
 
 ## Install
 
