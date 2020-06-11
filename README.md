@@ -1,41 +1,74 @@
+<h1 align="center">Welcome to mushsnap-dataset-generator 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="docurl" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
 
-# Scrapping
+
+> This repository provides python script to scrap information from websites. First we have use selenium with chrome to gather data in the raw format. And after that we have used a specific library to gather images from FLICKR. All this data has been gathered to apply Deep learning on it and be able to create an AI capable of differentiate inedible and edible mushrooms.
 
 
-## Steps
+### 🏠 [Homepage](Homepage)
 
-1. [x] Retrieve spieces (names to look) - 139 spieces
-2. [x] Retrieve urls
-3. [x] Retrieve images
-4. [x] Create dataset
-5. [ ] Create Mini-batches
+### ✨ [Demo](Demo)
 
-## Libraries
+## Install
 
-To execute all the tasks to retrieve all aspects i have use scrapper libreries such as selenium for Websites with the ChromeDriver and Flickr to retrieve the images.
+```sh
+pip install -r requirements.txt
+```
+
+## Usage
+
+You have all available execution commands in the Makefile.
+
+```sh
+# Makefile rules
+```
+
+## Explanation
+
+1. Retrieve spieces (names to look) - 139 spieces
+2. Retrieve urls
+3. Retrieve images
+4. Order images
+5. Zip images
+
+Once you have the images in the zip you can send them to the training environment to start with the AI-process.
+
+### Libraries
+
+To execute all the tasks to retrieve all aspects i have use scrapper libreries such as Selenium for Websites with the ChromeDriver and Flickr to retrieve the images.
 
 ### References
 
 - Flickr (Images) - FLickrAPI
-- Spieces (Names) - http://www.mushroom.world/mushrooms
+- Spieces (Names) - 
 - Selenium (Library - Chrome automatitaion)
-
-## Pre-process
-
-- https://github.com/selvam85/Cat-Dog-Classifier/blob/master/DNN_using_plain_TF_Cat_vs_Dog_classifier_Kaggle_dataset/Convert%20Images%20to%20Numpy%20array%20and%20save%20in%20h5%20fomat%20v2.1.ipynb
 
 ## FLICKR-API
 
-- [Flickr api](https://www.flickr.com/services/api/)
-
+- [Flickr api](https://www.flickr.com/services/api/misc.urls.html)
+- [Spieces](http://www.mushroom.world/mushrooms)
 - [Search Method](https://www.flickr.com/services/api/flickr.photos.search.html)
 
-To modify the size of the image that is retrieve.
-- [Url parameters](https://www.flickr.com/services/api/misc.urls.html)
+## Author
 
+👤 **ospinooo**
 
-## Other datasets
+* Website: https://ospino.me
+* Github: [@ospinooo](https://github.com/ospinooo)
+* LinkedIn: [@pabloospino](https://linkedin.com/in/pabloospino)
 
-- https://www.kaggle.com/maysee/mushrooms-classification-common-genuss-images
+## Show your support
 
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
